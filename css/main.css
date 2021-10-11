@@ -1,0 +1,9 @@
+/* debug box */
+.box {
+    height: 80px;
+    border: 1px solid black
+}
+
+header, footer {
+    background-color: #2c3e50;
+}
