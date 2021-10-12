@@ -82,7 +82,7 @@ main .registration ::placeholder {
 
 /* footer */
 footer {
-    background-color: #2c3e50;
+    background-color:#3a546d;
     color: white;
 }
 
@@ -96,7 +96,7 @@ footer .row ul {
 footer .row li {
     font-size: 20px;
     color: white;
-    background-color: #2c3e50;
+    background-color:#3a546d;
     border: 1px solid white;
     height: 50px;
     width: 50px;
@@ -110,4 +110,9 @@ footer .box-footer span {
 
 footer .copywriting {
     font-size: 0.75rem;
+}
+
+footer .writing {
+    background-color:#2c3e50;
+    line-height: 50px;
 }
