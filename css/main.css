@@ -3,9 +3,7 @@ body {
     padding-top: 60px;
 }
 
-footer {
-    background-color: #2c3e50;
-}
+
 
 /* header */
 .main-header .site-navbar {
@@ -39,7 +37,7 @@ main .site-hero .barra {
     background-color: white;
 }
 
-/* about */
+/* about-registration */
 main .btn-about {
     color: white;
     border: 1px solid white;
@@ -75,5 +73,41 @@ main .registration textarea {
     height: 200px;
 }
 
+main .registration .send {
+    background-color: #1abc9c;
+}
 
+/* footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+}
+.box-footer {
+    /* height: 70px; */
+}
 
+footer .row ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+footer .row li {
+    font-size: 20px;
+    color: white;
+    background-color: #2c3e50;
+    border: 1px solid white;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+footer .box-footer span {
+    color:#1daf96;
+}
+
+footer .copywriting {
+    font-size: 0.75rem;
+}
