@@ -1,7 +1,6 @@
-/* debug box */
-.box {
-    /* height: 80px; */
-    border: 1px solid black
+
+body {
+    padding-top: 60px;
 }
 
 footer {
@@ -38,6 +37,42 @@ main .site-hero .barra {
     width: 50%;
     height: 3px;
     background-color: white;
+}
+
+/* about */
+main .btn-about {
+    color: white;
+    border: 1px solid white;
+}
+
+main .registration input[type="text"],
+main .registration input[type="email"],
+main .registration input[type="phone"],
+main .registration textarea {
+    font-size: 18px;
+    border: 0;
+    border-bottom: 2px solid #ddd;
+    border-radius: 0;
+}
+
+main .registration input[type="text"]:focus,
+main .registration input[type="email"]:focus,
+main .registration input[type="phone"]:focus,
+main .registration textarea:focus {
+    border-color: black;
+    box-shadow: none;
+}
+
+main .registration input[type="text"],
+main .registration input[type="email"],
+main .registration input[type="phone"] {
+    padding: 0;
+    height: 50px;
+}
+
+main .registration textarea {
+    padding: 1rem 0;
+    height: 200px;
 }
 
 
